@@ -43,8 +43,6 @@ try:
                 # Itera sobre los nombres de archivos
 
                 print(archivo + " se copio exitosamente en la carpeta " + new_folder_name)
-            else:
-                print('No encontró archivo: '+archivo)
         
 except:
       print("Valide que los datos ingresados estén correctos.")
